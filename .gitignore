@@ -1,0 +1,26 @@
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.exe
+*.out
+
+# IDE or editor files
+.vscode/
+.idea/
+*.swp
+.vs/
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Other common exclusions
+*.log
+*.tmp
