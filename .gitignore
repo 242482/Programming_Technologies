@@ -1,9 +1,6 @@
-# C++ build artifacts
-*.o
-*.obj
-*.so
-*.exe
-*.out
+# .NET Core build directories
+bin/
+obj/
 
 # IDE or editor files
 .vscode/
@@ -11,16 +8,44 @@
 *.swp
 .vs/
 
-# MacOS and Windows system files
-.DS_Store
-Thumbs.db
 
-# CMake files
-CMakeCache.txt
-CMakeFiles/
-Makefile
-cmake_install.cmake
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
 
-# Other common exclusions
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core temporary files
+.vs/
+.vscode/
+
+# Logs
 *.log
-*.tmp
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+
+
+
