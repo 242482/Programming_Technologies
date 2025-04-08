@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="496df3f3-2d1c-49ae-969d-1f3e24aa51fd" name="mail1@DESKTOP-HP3TPMK 2025-04-08 20:29:30" runUser="DESKTOP-HP3TPMK\mail1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-08T20:29:30.8645758+02:00" queuing="2025-04-08T20:29:30.8645762+02:00" start="2025-04-08T20:29:29.6467121+02:00" finish="2025-04-08T20:29:30.8765637+02:00" />
+  <TestSettings name="default" id="8a9b824a-dc78-4b6f-890d-f3543eb25cc6">
+    <Deployment runDeploymentRoot="mail1_DESKTOP-HP3TPMK_2025-04-08_20_29_30" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="91963936-e860-4a96-9b9c-4116251ddedf" testId="d419d2e7-80e3-d516-17d1-0cdaf65d8385" testName="DoesItemExist_ShouldReturnFalseIfItemDoesNotExist" computerName="DESKTOP-HP3TPMK" duration="00:00:00.0000001" startTime="2025-04-08T20:29:30.7051393+02:00" endTime="2025-04-08T20:29:30.7061354+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91963936-e860-4a96-9b9c-4116251ddedf" />
+    <UnitTestResult executionId="758a9a94-b427-459d-a683-d3b90971e853" testId="193a76bc-e96d-de19-701e-a69e8212f128" testName="AddItemToStore_ShouldAddItemSuccessfully" computerName="DESKTOP-HP3TPMK" duration="00:00:00.0610000" startTime="2025-04-08T20:29:30.6422750+02:00" endTime="2025-04-08T20:29:30.7031463+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="758a9a94-b427-459d-a683-d3b90971e853">
+      <Output>
+        <StdOut>Item 'Item1' added successfully.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e4868cc8-0031-450f-a869-ec477402f2bd" testId="79091ac5-d51a-70a3-6d7f-2c5d3f70fb04" testName="DoesItemExist_ShouldReturnTrueIfItemExists" computerName="DESKTOP-HP3TPMK" duration="00:00:00.0000001" startTime="2025-04-08T20:29:30.7061354+02:00" endTime="2025-04-08T20:29:30.7061354+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4868cc8-0031-450f-a869-ec477402f2bd">
+      <Output>
+        <StdOut>Item 'Item2' added successfully.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a3663db-4a15-4046-80a0-0bd01156a05f" testId="abf397eb-5b16-237b-e570-bd7898b47192" testName="GetItems_ShouldReturnAllAddedItems" computerName="DESKTOP-HP3TPMK" duration="00:00:00.0000001" startTime="2025-04-08T20:29:30.7061354+02:00" endTime="2025-04-08T20:29:30.7061354+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a3663db-4a15-4046-80a0-0bd01156a05f">
+      <Output>
+        <StdOut>Item 'Item1' added successfully.&#xD;
+Item 'Item2' added successfully.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DoesItemExist_ShouldReturnTrueIfItemExists" storage="d:\studia\ife\sem4\programming_technologies\programming_technologies\project_0.tests\bin\debug\net472\project_0.tests.dll" id="79091ac5-d51a-70a3-6d7f-2c5d3f70fb04">
+      <Execution id="e4868cc8-0031-450f-a869-ec477402f2bd" />
+      <TestMethod codeBase="D:\Studia\ife\sem4\Programming_Technologies\Programming_Technologies\Project_0.Tests\bin\Debug\net472\Project_0.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Project_0.Tests.LogicLayerTests" name="DoesItemExist_ShouldReturnTrueIfItemExists" />
+    </UnitTest>
+    <UnitTest name="DoesItemExist_ShouldReturnFalseIfItemDoesNotExist" storage="d:\studia\ife\sem4\programming_technologies\programming_technologies\project_0.tests\bin\debug\net472\project_0.tests.dll" id="d419d2e7-80e3-d516-17d1-0cdaf65d8385">
+      <Execution id="91963936-e860-4a96-9b9c-4116251ddedf" />
+      <TestMethod codeBase="D:\Studia\ife\sem4\Programming_Technologies\Programming_Technologies\Project_0.Tests\bin\Debug\net472\Project_0.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Project_0.Tests.LogicLayerTests" name="DoesItemExist_ShouldReturnFalseIfItemDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="AddItemToStore_ShouldAddItemSuccessfully" storage="d:\studia\ife\sem4\programming_technologies\programming_technologies\project_0.tests\bin\debug\net472\project_0.tests.dll" id="193a76bc-e96d-de19-701e-a69e8212f128">
+      <Execution id="758a9a94-b427-459d-a683-d3b90971e853" />
+      <TestMethod codeBase="D:\Studia\ife\sem4\Programming_Technologies\Programming_Technologies\Project_0.Tests\bin\Debug\net472\Project_0.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Project_0.Tests.LogicLayerTests" name="AddItemToStore_ShouldAddItemSuccessfully" />
+    </UnitTest>
+    <UnitTest name="GetItems_ShouldReturnAllAddedItems" storage="d:\studia\ife\sem4\programming_technologies\programming_technologies\project_0.tests\bin\debug\net472\project_0.tests.dll" id="abf397eb-5b16-237b-e570-bd7898b47192">
+      <Execution id="3a3663db-4a15-4046-80a0-0bd01156a05f" />
+      <TestMethod codeBase="D:\Studia\ife\sem4\Programming_Technologies\Programming_Technologies\Project_0.Tests\bin\Debug\net472\Project_0.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Project_0.Tests.LogicLayerTests" name="GetItems_ShouldReturnAllAddedItems" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d419d2e7-80e3-d516-17d1-0cdaf65d8385" executionId="91963936-e860-4a96-9b9c-4116251ddedf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="193a76bc-e96d-de19-701e-a69e8212f128" executionId="758a9a94-b427-459d-a683-d3b90971e853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79091ac5-d51a-70a3-6d7f-2c5d3f70fb04" executionId="e4868cc8-0031-450f-a869-ec477402f2bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abf397eb-5b16-237b-e570-bd7898b47192" executionId="3a3663db-4a15-4046-80a0-0bd01156a05f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Wyniki, których nie ma na liście" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Wszystkie załadowane wyniki" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in D:\Studia\ife\sem4\Programming_Technologies\Programming_Technologies\Project_0.Tests\bin\Debug\net472\Project_0.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-HP3TPMK" outcome="Warning" timestamp="2025-04-08T20:29:30.7219994+02:00">
+        <Text>Item 'Item1' added successfully.&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HP3TPMK" outcome="Warning" timestamp="2025-04-08T20:29:30.7270380+02:00">
+        <Text>Item 'Item2' added successfully.&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HP3TPMK" outcome="Warning" timestamp="2025-04-08T20:29:30.7311902+02:00">
+        <Text>Item 'Item1' added successfully.&#xD;
+Item 'Item2' added successfully.&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
