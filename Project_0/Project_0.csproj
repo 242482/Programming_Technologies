@@ -16,6 +16,10 @@
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 	  <Prefer32Bit>True</Prefer32Bit>
 	</PropertyGroup>
+	
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="dotnet test ../Project_0.Tests/Project_0.Tests.csproj --no-build" />
+	</Target>
 
 
 
